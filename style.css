@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@300;400;500&display=swap');
+:root {
+  --color-bg: #7692ff;
+  --color-bg-cart: #e0e2db;
+  --color-title: #2f52e0;
+  --color-letter: #201e1f;
+  --color-visited: #ad343e;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-bg);
+}
+.list {
+  background: var(--color-bg-cart);
+  padding: 30px 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.list__title {
+  margin: 20px 0;
+  text-align: center;
+  color: var(--color-title);
+  font-family: 'Acme', sans-serif;
+}
+.list__video {
+  margin: 10px;
+}
+.video__link {
+  color: var(--color-letter);
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.video__link:visited {
+  color: var(--color-visit);
+}
